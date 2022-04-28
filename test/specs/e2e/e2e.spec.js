@@ -7,7 +7,7 @@ const OrdersPage = require("../../pages/orders.page");
 
 describe('End to End test', async () => {
     
-    it(`User sholud be able to login and order a product`, async () => {
+    it(`User should be able to login and order a product`, async () => {
         await HomePage.openLoginForm();
         await LoginPage.login(
           browser.config.accounts[0].username,

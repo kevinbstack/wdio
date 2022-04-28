@@ -9,7 +9,7 @@ var overrides = {
       maxInstances: 1,
       device: "Samsung Galaxy A51",
       os_version: "10.0",
-      app: process.env.BROWSERSTACK_ANDROID_APP_ID,
+      app: process.env.BROWSERSTACK_ANDROID_APP_ID || 'bs://7fc2fd35d479bb578ad9ad1e313f5722d5034493', 
       autoGrantPermissions: true,
       platformName: "Android",
     },
