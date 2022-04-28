@@ -23,4 +23,5 @@ tmpConfig.capabilities.forEach((caps) => {
     caps[i] = caps[i] || tmpConfig.commonCapabilities[i];
 });
 
+
 exports.config = tmpConfig;
